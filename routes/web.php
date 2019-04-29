@@ -39,6 +39,10 @@ Route::get('/blog-single', function () {
     return view('blog-single');
 });
 
-Auth::routes();
+Auth::routes(['verify'=>true]);
+
+Route::get('/verify',function(){
+        return view('auth.verify');
+    } );
 
 Route::get('/home', 'HomeController@index')->name('home');

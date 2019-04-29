@@ -50,7 +50,7 @@
 					<ul class="nav-menu">
 						<li><a href="index">Home</a></li>
 						<li><a href="/login">Login</a></li>
-						<li><a href="{{ route('register') }}">Register</a></li>
+						<li><a href="/register">Register</a></li>
 						<li class="menu-active"><a href="/about">About</a></li>
 						<li><a href="/courses">Courses</a></li>
 						<li class="menu-has-children"><a href="/pages">Pages</a>
@@ -67,7 +67,7 @@
 								<li><a href="blog-single">Blog Details</a></li>
 							</ul>
 						</li>
-						<li><a href="contact">Contact</a></li>
+						<li><a href="/contact">Contact</a></li>
 					</ul>
 					
 				</nav><!-- #nav-menu-container -->
