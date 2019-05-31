@@ -11,11 +11,15 @@
 |
 */
 
+/*
+
 Route::get('/', function () {
     return view('abc');
 });
 
-Route::get('/index', function () {
+*/
+
+Route::get('/', function () {
     return view('index');
 });
 
@@ -27,16 +31,16 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/courses', function () {
-    return view('courses');
+Route::get('/tutors', function () {
+    return view('tutorsPosts');
 });
 
-Route::get('/blog-home', function () {
-    return view('blog-home');
+Route::get('/profile', function () {
+    return view('profile');
 });
 
-Route::get('/blog-single', function () {
-    return view('blog-single');
+Route::get('/posts', function () {
+    return view('posts');
 });
 
 Auth::routes(['verify'=>true]);
@@ -46,3 +50,16 @@ Route::get('/verify',function(){
     } );
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+//userinformation routes
+
+
+Route::get('/showuserinfo', 'UserController@showUser');
+
+Route::get('/createuser', 'UserController@createUser');
+
+Route::post('/saveuser', 'UserController@saveUser');

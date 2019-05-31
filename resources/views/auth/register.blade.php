@@ -60,6 +60,57 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
                             </div>
                         </div>
+                        <div class="form-group row">
+                            <label for="Address" class="col-md-4 col-form-label text-md-right">{{ __('Address') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Contact') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
+                            </div>
+                        </div>
+
+                         <div class="form-group row">
+
+                            <label class="col-md-4 col-form-label text-md-right"  multiple="multiple">institute:</label>
+                               <div class="col-md-6">
+                                  <select  name="institute" size="2" multiple ="multiple">
+                                    <option value="SUST" selected="selected">SUST</option>
+                                    <option value="DU" >DU</option>
+                                    <option value="BUET" selected="selected">BUET</option>
+                                  </select>     
+                                </div>
+                         </div>
+
+                         <div class="form-group row">
+
+                            <label class="col-md-4 col-form-label text-md-right"  multiple="multiple">Classes:</label>
+                               <div class="col-md-6">
+                                  <select  name="institute" size="2" multiple ="multiple">
+                                    <option value="8" selected="selected">8</option>
+                                    <option value="9" >9</option>
+
+                                  </select>     
+                                </div>
+                         </div>
+
+                         <div class="form-group row">
+
+                            <label class="col-md-4 col-form-label text-md-right"  multiple="multiple">Subjects:</label>
+                               <div class="col-md-6">
+                                  <select  name="institute" size="2" multiple ="multiple">
+                                    <option value="physics" selected="selected">Physics</option>
+                                    <option value="Chemistry" >Chemistry</option>
+                                    <option value="Biology" selected="selected">Biology</option>
+                                    <option value="Higher Math" selected="selected">Higher Math</option>
+                                  </select>     
+                                </div>
+                         </div>
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
@@ -71,6 +122,7 @@
                                 </button>
                             </div>
                         </div>
+                        
                     </form>
                 </div>
             </div>

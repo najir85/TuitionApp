@@ -1,3 +1,4 @@
+@yield('homePage')
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
@@ -15,7 +16,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>Educature Education</title>
+	<title>Tuitionee</title>
 
 	<!--
 			Google Font
@@ -44,30 +45,29 @@
 		<div class="container">
 			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
-					<a href="/index"><img src="img/logo.png" alt="" title="" /></a>
+					<a href="/index"><img src="img/logo.png" alt="" title="Tuitionee" /></a>
 				</div>
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
-						<li><a href="index">Home</a></li>
-						<li><a href="/login">Login</a></li>
-						<li><a href="/register">Register</a></li>
-						<li class="menu-active"><a href="/about">About</a></li>
-						<li><a href="/courses">Courses</a></li>
-						<li class="menu-has-children"><a href="/pages">Pages</a>
+						
+						<li class="menu-has-children"><a href="/pages">Find Tutor</a>
 							<ul>
-								<li><a href="elements">post</a></li>
-								<li><a href="elements">contact</a></li>
-								<li><a href="elements">important links</a></li>
+								<li><a href="elements">View Tutors Post</a></li>
+								<li><a href="elements">Post For Tutor</a></li>
 							</ul>
 							
 						</li>
-						<li class="menu-has-children"><a href="">Blog</a>
+						<li class="menu-has-children"><a href="">Find Tuition</a>
 							<ul>
-								<li><a href="blog-home">Blog Home</a></li>
-								<li><a href="blog-single">Blog Details</a></li>
+								<li><a href="#"></a>View Tuition Post</li>
+								<li><a href="#"></a>Post for Tuition</li>
 							</ul>
 						</li>
-						<li><a href="/contact">Contact</a></li>
+
+						<li><a href="/login">Login</a></li>
+						<li><a href="/register">Register</a></li>
+						<li><a href="/register">Profile</a></li>
+
 					</ul>
 					
 				</nav><!-- #nav-menu-container -->
@@ -82,33 +82,40 @@
 		<div class="container">
 			<div class="row fullscreen d-flex align-items-center justify-content-center">
 				<div class="banner-content col-lg-8 col-md-12">
-					<h1 class="wow fadeIn" data-wow-duration="4s">We Rank the Best Courses <br> on the Web</h1>
+					<h1 class="wow fadeIn" data-wow-duration="4s">We Rank the Best Tutors <br> on the Web</h1>
 					<p class="text-white">
-						In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space
-						telescope.
+						Find out Best tutor and Tuition  from this site.<br>
 					</p>
 
 					<div class="input-wrap">
 						<form action="" class="form-box d-flex justify-content-between">
-							<input type="text" placeholder="Search Courses" class="form-control" name="username">
+							<input type="text" placeholder="Search Tutors
+
+
+
+
+
+
+
+
+
+
+							" class="form-control" name="username">
 							<button type="submit" class="btn search-btn">Search</button>
 						</form>
 					</div>
-					<h4 class="text-white">Top courses</h4>
+					<h4 class="text-white">Top Subjects</h4>
 
 					<div class="courses pt-20">
-						<a href="#" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Ruby
-							on Rails</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay=".6s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Python</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay=".9s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Marketing</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay="1.2s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">UI/UX
-							Design
+						<a href="#" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Physics</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay=".6s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Chemistry</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay=".9s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Biology</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay="1.2s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Higher Math
 						</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay="1.5s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Android</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay="1.8s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Data
-							Science
+						<a href="#" data-wow-duration="1s" data-wow-delay="1.5s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">English</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay="1.8s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Bangla
 						</a>
-						<a href="#" data-wow-duration="1s" data-wow-delay="2.1s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Cryptocurrency</a>
+						<a href="#" data-wow-duration="1s" data-wow-delay="2.1s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">ICT</a>
 					</div>
 				</div>
 			</div>
@@ -129,16 +136,16 @@
 				</div>
 				<div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
 					<h1>
-						Over 2500 Courses <br> from 5 Platform
+						Over 2500 Tutors <br> from Top Institutions
 					</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
-							There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think
-							about setting up your own viewing station. In the life of any aspiring astronomer that it is time to buy that first
-							telescope. It’s exciting to think about setting up your own viewing station.
+							There you can find your needed best tutor from top institution of Bangladesh.
+							There you can find your needed best tutor from top institution of Bangladesh.
+							There you can find your needed best tutor from top institution of Bangladesh.
 						</p>
 					</div>
-					<a href="/courses" class="primary-btn">Explore Courses</a>
+					<a href="/courses" class="primary-btn">Explore Tutors Zone</a>
 				</div>
 			</div>
 		</div>
@@ -152,16 +159,16 @@
 			<div class="row align-items-center">
 				<div class="col-lg-5 about-right">
 					<h1>
-						This is Why <br> We have Solid Idea
+						Tutors from  <br> Top institution
 					</h1>
 					<div class="wow fadeIn" data-wow-duration="1s">
 						<p>
-							There is a moment in the life of any aspiring astronomer that it is time to buy that first telescope. It’s exciting to think
-							about setting up your own viewing station. In the life of any aspiring astronomer that it is time to buy that first
-							telescope. It’s exciting to think about setting up your own viewing station.
+							There you can find your needed best tutor from top institution of Bangladesh.
+							There you can find your needed best tutor from top institution of Bangladesh.
+							There you can find your needed best tutor from top institution of Bangladesh.
 						</p>
 					</div>
-					<a href="courses.html" class="primary-btn white">Explore Courses</a>
+					<a href="courses.html" class="primary-btn white">Explore Category</a>
 				</div>
 				<div class="offset-lg-1 col-lg-6">
 					<div class="courses-right">
@@ -170,27 +177,38 @@
 								<ul class="courses-list">
 									<li>
 										<a class="wow fadeInLeft" href="/courses" data-wow-duration="1s" data-wow-delay=".1s">
-											<i class="fa fa-book"></i> Development
+											<i class="fa fa-book"></i> Science
 										</a>
 									</li>
 									<li>
 										<a class="wow fadeInLeft" href="/courses" data-wow-duration="1s" data-wow-delay=".3s">
-											<i class="fa fa-book"></i> IT & Software
+											<i class="fa fa-book"></i>Business Studies
+										</a>
+									</li>
+
+									<li>
+										<a class="wow fadeInLeft" href="/courses" data-wow-duration="1s" data-wow-delay=".3s">
+											<i class="fa fa-book"></i>Business Studies
 										</a>
 									</li>
 									<li>
 										<a class="wow fadeInLeft" href="/courses" data-wow-duration="1s" data-wow-delay=".5s">
-											<i class="fa fa-book"></i> Photography
+											<i class="fa fa-book"></i>Humanities
 										</a>
 									</li>
 									<li>
 										<a class="wow fadeInLeft" href="/courses" data-wow-duration="1s" data-wow-delay=".7s">
-											<i class="fa fa-book"></i> Language
+											<i class="fa fa-book"></i>Primary
+										</a>
+									</li>
+									<li>
+										<a class="wow fadeInLeft" href="/courses" data-wow-duration="1s" data-wow-delay=".7s">
+											<i class="fa fa-book"></i>Primary
 										</a>
 									</li>
 									<li>
 										<a class="wow fadeInLeft" href="/courses" data-wow-duration="1s" data-wow-delay=".9s">
-											<i class="fa fa-book"></i> Life Science
+											<i class="fa fa-book"></i>
 										</a>
 									</li>
 									<li>
@@ -212,16 +230,7 @@
 											<i class="fa fa-book"></i> Data Science
 										</a>
 									</li>
-									<li>
-										<a class="wow fadeInRight" href="/courses" data-wow-duration="1s" data-wow-delay="1.1s">
-											<i class="fa fa-book"></i> Design
-										</a>
-									</li>
-									<li>
-										<a class="wow fadeInRight" href="/courses" data-wow-duration="1s" data-wow-delay=".9s">
-											<i class="fa fa-book"></i> Training
-										</a>
-									</li>
+									
 									<li>
 										<a class="wow fadeInRight" href="/courses" data-wow-duration="1s" data-wow-delay=".7s">
 											<i class="fa fa-book"></i> Humanities
@@ -239,7 +248,7 @@
 									</li>
 									<li>
 										<a class="wow fadeInRight" href="courses.html" data-wow-duration="1s" data-wow-delay=".1s">
-											<i class="fa fa-book"></i> Personal Dev
+											<i class="fa fa-book"></i>High School
 										</a>
 									</li>
 								</ul>
@@ -253,90 +262,7 @@
 	<!-- End Courses Area -->
 
 
-	<!--Start Feature Area -->
-	<section class="feature-area">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8">
-					<div class="section-title text-center">
-						<h1>Features That Make Us Hero</h1>
-						<p>
-							If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for
-							as low as $.17 each.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="feature-inner row">
-				<div class="col-lg-4 col-md-6">
-					<div class="feature-item">
-						<i class="ti-crown"></i>
-						<h4>Architecture</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
-							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="feature-item">
-						<i class="ti-briefcase"></i>
-						<h4>Interior Design</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="feature-item">
-						<i class="ti-medall-alt"></i>
-						<h4>Concept Design</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="feature-item">
-						<i class="ti-key"></i>
-						<h4>Lifetime Access</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
-							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="feature-item">
-						<i class="ti-files"></i>
-						<h4>Source File Included</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="feature-item">
-						<i class="ti-headphone-alt"></i>
-						<h4>Live Support</h4>
-						<div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-							<p>
-								Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	
 	<!-- End Feature Area -->
 
 
@@ -346,7 +272,7 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-8">
 					<div class="section-title text-center">
-						<h1>Faculty Members</h1>
+						<h1>Top Tutors</h1>
 						<p>
 							If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for
 							as low as $.17 each.
@@ -437,129 +363,19 @@
 	<!-- End Faculty Area -->
 
 
-	<!-- Start Testimonials Area -->
-	<section class="testimonials-area section-gap">
-		<div class="container">
-			<div class="testi-slider owl-carousel" data-slider-id="1">
-				<div class="item">
-					<div class="testi-item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="testi-item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="testi-item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="testi-item">
-						<img src="img/quote.png" alt="">
-						<h4>Fanny Spencer</h4>
-						<ul class="list">
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-							<li><a href="#"><i class="fa fa-star"></i></a></li>
-						</ul>
-						<div class="wow fadeIn" data-wow-duration="1s">
-							<p>
-								As conscious traveling Paup ers we must always be oncerned about our dear Mother Earth. If you think about it, you travel
-								across her face <br> and She is the host to your journey.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="owl-thumbs d-flex justify-content-center" data-slider-id="1">
-				<div class="owl-thumb-item">
-					<div>
-						<img class="img-fluid" src="img/testimonial/t1.jpg" alt="">
-					</div>
-					<div class="overlay overlay-grad"></div>
-				</div>
-				<div class="owl-thumb-item">
-					<div>
-						<img class="img-fluid" src="img/testimonial/t2.jpg" alt="">
-					</div>
-					<div class="overlay overlay-grad"></div>
-				</div>
-				<div class="owl-thumb-item">
-					<div>
-						<img class="img-fluid" src="img/testimonial/t3.jpg" alt="">
-					</div>
-					<div class="overlay overlay-grad"></div>
-				</div>
-				<div class="owl-thumb-item">
-					<div>
-						<img class="img-fluid" src="img/testimonial/t4.jpg" alt="">
-					</div>
-					<div class="overlay overlay-grad"></div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Testimonials Area -->
-
+	
 
 	<!-- Start Footer Area -->
 	<footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Top Products</h4>
+					<h4>Top Tutors</h4>
 					<ul>
-						<li><a href="#">Managed Website</a></li>
-						<li><a href="#">Manage Reputation</a></li>
-						<li><a href="#">Power Tools</a></li>
-						<li><a href="#">Marketing Service</a></li>
+						<li><a href="#">Science</a></li>
+						<li><a href="#">Business Studies</a></li>
+						<li><a href="#">Humanities</a></li>
+						<li><a href="#">Language</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-2 col-md-6 single-footer-widget">
