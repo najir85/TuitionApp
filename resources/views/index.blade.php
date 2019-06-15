@@ -1,4 +1,3 @@
-@yield('homePage')
 <!DOCTYPE html>
 <html lang="zxx" class="no-js">
 
@@ -38,6 +37,7 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 
+
 <body>
 
 	<!-- Start Header Area -->
@@ -50,23 +50,7 @@
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						
-						<li class="menu-has-children"><a href="/pages">Find Tutor</a>
-							<ul>
-								<li><a href="elements">View Tutors Post</a></li>
-								<li><a href="elements">Post For Tutor</a></li>
-							</ul>
-							
-						</li>
-						<li class="menu-has-children"><a href="">Find Tuition</a>
-							<ul>
-								<li><a href="#"></a>View Tuition Post</li>
-								<li><a href="#"></a>Post for Tuition</li>
-							</ul>
-						</li>
-
-						<li><a href="/login">Login</a></li>
-						<li><a href="/register">Register</a></li>
-						<li><a href="/register">Profile</a></li>
+					@include('layouts.navlink')
 
 					</ul>
 					
@@ -127,7 +111,9 @@
 	<!-- End Banner Area -->
 
 
+
 	<!-- Start About Area -->
+	<!--
 	<section class="about-area section-gap">
 		<div class="container">
 			<div class="row align-items-center justify-content-center">
@@ -150,10 +136,12 @@
 			</div>
 		</div>
 	</section>
+-->
 	<!-- End About Area -->
 
 
 	<!-- Start Courses Area -->
+<!--
 	<section class="courses-area section-gap">
 		<div class="container">
 			<div class="row align-items-center">
@@ -259,6 +247,7 @@
 			</div>
 		</div>
 	</section>
+-->
 	<!-- End Courses Area -->
 
 
@@ -267,6 +256,7 @@
 
 
 	<!-- Start Faculty Area -->
+	<!--
 	<section class="faculty-area section-gap">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -360,12 +350,15 @@
 			</div>
 		</div>
 	</section>
+-->
 	<!-- End Faculty Area -->
 
 
 	
 
 	<!-- Start Footer Area -->
+
+	<!--
 	<footer class="footer-area section-gap">
 		<div class="container">
 			<div class="row">
@@ -424,7 +417,9 @@
 				</div>
 			</div>
 			<div class="footer-bottom row align-items-center">
-				<p class="footer-text m-0 col-lg-8 col-md-12"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+				<p class="footer-text m-0 col-lg-8 col-md-12">
+-->
+					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 				<div class="col-lg-4 col-md-12 footer-social">

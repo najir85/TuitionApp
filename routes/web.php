@@ -20,6 +20,7 @@ Route::get('/', function () {
 */
 
 Route::get('/', function () {
+
     return view('index');
 });
 
@@ -63,3 +64,26 @@ Route::get('/showuserinfo', 'UserController@showUser');
 Route::get('/createuser', 'UserController@createUser');
 
 Route::post('/saveuser', 'UserController@saveUser');
+
+//test profile page
+
+
+Route::get('/testprofile', function () {
+    return view('testprofile');
+});
+
+
+//posts routes
+
+Route::get('/post', 'PostController@index');
+Route::get('/post/{post}', 'PostController@show');
+
+Route::get('/createPost', 'PostController@create');
+Route::post('/storePost', 'PostController@store');
+
+//test for data passing
+use App\Task;
+
+Route::get('/task','TasksController@index');
+
+Route::get('/task/{task}','TasksController@show');

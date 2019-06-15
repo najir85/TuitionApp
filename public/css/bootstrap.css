@@ -4084,6 +4084,8 @@ input[type=submit].btn-block {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none
+    background-color:cornflowerblue;
+    color: red;
 }
 
 .nav-link {
@@ -4102,6 +4104,7 @@ input[type=submit].btn-block {
 
 .nav-tabs {
     border-bottom: 1px solid #dee2e6
+    color:cornflowerblue;
 }
 
 .nav-tabs .nav-item {
@@ -4181,6 +4184,7 @@ input[type=submit].btn-block {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: .5rem 1rem
+    background-color:black;
 }
 
 .navbar>.container,
@@ -4193,6 +4197,7 @@ input[type=submit].btn-block {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between
+    color:cornflowerblue
 }
 
 .navbar-brand {
@@ -4203,6 +4208,7 @@ input[type=submit].btn-block {
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap
+    color:cornflowerblue
 }
 
 .navbar-brand:focus,
@@ -4218,11 +4224,13 @@ input[type=submit].btn-block {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none
+     background-color: #F8F8F8;
 }
 
 .navbar-nav .nav-link {
     padding-right: 0;
     padding-left: 0
+    color:cornflowerblue
 }
 
 .navbar-nav .dropdown-menu {
@@ -4234,6 +4242,7 @@ input[type=submit].btn-block {
     display: inline-block;
     padding-top: .5rem;
     padding-bottom: .5rem
+
 }
 
 .navbar-collapse {
