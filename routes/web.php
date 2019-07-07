@@ -23,18 +23,7 @@ Route::get('/', function () {
 
     return view('index');
 });
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/tutors', function () {
-    return view('tutorsPosts');
-});
+ 
 
 Route::get('/profile', function () {
     return view('profile');
@@ -44,7 +33,7 @@ Route::get('/posts', function () {
     return view('posts');
 });
 
-Auth::routes(['verify'=>true]);
+Auth::routes();
 
 Route::get('/verify',function(){
         return view('auth.verify');
@@ -58,15 +47,15 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 //userinformation routes
 
-
 Route::get('/showuserinfo', 'UserController@showUser');
 
 Route::get('/createuser', 'UserController@createUser');
 
 Route::post('/saveuser', 'UserController@saveUser');
 
-//test profile page
 
+
+//test profile page
 
 Route::get('/testprofile', function () {
     return view('testprofile');
@@ -75,15 +64,21 @@ Route::get('/testprofile', function () {
 
 //posts routes
 
-Route::get('/post', 'PostController@index');
-Route::get('/post/{post}', 'PostController@show');
-
 Route::get('/createPost', 'PostController@create');
+
 Route::post('/storePost', 'PostController@store');
 
-//test for data passing
-use App\Task;
+Route::get('/post', 'PostController@index');
 
-Route::get('/task','TasksController@index');
+Route::get('/post/{post}', 'PostController@show');
 
-Route::get('/task/{task}','TasksController@show');
+Route::get('/post/{post}/comments', 'CommentController@store');
+
+
+
+
+
+
+
+
+

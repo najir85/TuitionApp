@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$module$">
+      <sourceFolder url="file://$module$/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$module$/app" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$module$/vendor/beyondcode/laravel-dump-server" />
+      <excludeFolder url="file://$module$/vendor/composer" />
+      <excludeFolder url="file://$module$/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$module$/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$module$/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$module$/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$module$/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$module$/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$module$/vendor/erusev/parsedown" />
+      <excludeFolder url="file://$module$/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$module$/vendor/filp/whoops" />
+      <excludeFolder url="file://$module$/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$module$/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$module$/vendor/jakub-onderka/php-console-color" />
+      <excludeFolder url="file://$module$/vendor/jakub-onderka/php-console-highlighter" />
+      <excludeFolder url="file://$module$/vendor/laravel/framework" />
+      <excludeFolder url="file://$module$/vendor/laravel/tinker" />
+      <excludeFolder url="file://$module$/vendor/league/flysystem" />
+      <excludeFolder url="file://$module$/vendor/mockery/mockery" />
+      <excludeFolder url="file://$module$/vendor/monolog/monolog" />
+      <excludeFolder url="file://$module$/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$module$/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$module$/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$module$/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$module$/vendor/opis/closure" />
+      <excludeFolder url="file://$module$/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$module$/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$module$/vendor/phar-io/version" />
+      <excludeFolder url="file://$module$/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$module$/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$module$/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$module$/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$module$/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$module$/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$module$/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$module$/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$module$/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$module$/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$module$/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$module$/vendor/psr/container" />
+      <excludeFolder url="file://$module$/vendor/psr/log" />
+      <excludeFolder url="file://$module$/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$module$/vendor/psy/psysh" />
+      <excludeFolder url="file://$module$/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$module$/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$module$/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$module$/vendor/sebastian/diff" />
+      <excludeFolder url="file://$module$/vendor/sebastian/environment" />
+      <excludeFolder url="file://$module$/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$module$/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$module$/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$module$/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$module$/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$module$/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$module$/vendor/sebastian/version" />
+      <excludeFolder url="file://$module$/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$module$/vendor/symfony/console" />
+      <excludeFolder url="file://$module$/vendor/symfony/contracts" />
+      <excludeFolder url="file://$module$/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$module$/vendor/symfony/debug" />
+      <excludeFolder url="file://$module$/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$module$/vendor/symfony/finder" />
+      <excludeFolder url="file://$module$/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$module$/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$module$/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$module$/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$module$/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$module$/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$module$/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$module$/vendor/symfony/process" />
+      <excludeFolder url="file://$module$/vendor/symfony/routing" />
+      <excludeFolder url="file://$module$/vendor/symfony/translation" />
+      <excludeFolder url="file://$module$/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$module$/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$module$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$module$/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$module$/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -10,11 +10,12 @@
     <title>{{ config('app.name', 'Tuitionee') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
-    
+    <script src="{{ asset('js/app.js') }}"></script>    
     <!-- script and css for multiple checkbox -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+    <link rel="stylesheet" href="css/multiselect.css" >
+
+   
+    
 <!-- css from educature-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
     <link rel="stylesheet" href="css/linearicons.css">
@@ -80,7 +81,7 @@
             <div class="container banner-area">
                     <main class="py-4">
                     @yield('content')
-                  </main>
+                    </main>
 
             </div>
             
@@ -88,6 +89,9 @@
         </section>
       <!-- End Banner Area -->
   </div>
+
+
+  
 
 </body>
 </html>

@@ -78,38 +78,56 @@
                         </div>
 
                          <div class="form-group row">
-                            <label class="col-md-4 col-form-label text-md-right"  multiple="multiple">institute:</label>
+                            <label class="col-md-4 col-form-label text-md-right"  multiple="multiple" required>institute:</label>
                                <div class="col-md-6">
-                                  <select  name="institute" size="2" multiple ="multiple">
-                                    <option value="SUST" selected="selected">SUST</option>
+                                  <select  name="institute" class="form-control" >
+                                    <option value="SUST" >SUST</option>
                                     <option value="DU" >DU</option>
-                                    <option value="BUET" >BUET</option>
+                                    <option value="BUTEX" >BUTEX</option>
+                                    <option value="JU" >JU</option>
+                                    <option value="JNU" >JNU</option>
+                                    <option value="KUET" >KUET</option>
+                                    <option value="RUET" >RUET</option>
+                                    <option value="CUET" >CUET</option>
+                                    <option value="IUT" >IUT</option>
+                                    <option value="MIST" >MIST</option>
+                                    <option value="BAU" >BAU</option>
                                   </select>     
                                 </div>
                          </div>
 
                          <div class="form-group row">
-
-                            <label class="col-md-4 col-form-label text-md-right"  multiple="multiple">Classes:</label>
+                             <label class="col-md-4 col-form-label text-md-right"  multiple="multiple "required>Classes:</label>
                                <div class="col-md-6">
-                                  <select  name="class" size="2" multiple ="multiple">
-                                    <option value="8" selected="selected">8</option>
+                                  <select  name="class" class="form-control">
+                                    <option value="" >Select Class</option>
+                                    <option value="6" >6</option>
+                                    <option value="7" >7</option>
+                                    <option value="8" >8</option>
                                     <option value="9" >9</option>
+                                    <option value="10" >10</option>
+                                    <option value="11" >11</option>
+                                     <option value="12" >12</option>
+                                    <option value="admission" >admission Test</option>
                                   </select>     
                                 </div>
                          </div>
 
                          <div class="form-group row">
-
-                            <label class="col-md-4 col-form-label text-md-right"  multiple="multiple">Subjects:</label>
-                               <div class="col-md-6">
-                                  <select  name="subject" size="2" multiple ="multiple">
-                                    <option value="physics" selected="selected">Physics</option>
+                            <label class="col-md-4 col-form-label text-md-right"  multiple="multiple" required>Subjects:</label>
+                               <div class="col-md-6 ">
+                                  <select  name="subject" class="form-control">
+                                    <option value="" >Select Subjects</option>
+                                    <option value="physics" >Physics</option>
                                     <option value="Chemistry" >Chemistry</option>
-                                    <option value="Biology" selected="selected">Biology</option>
-                                    <option value="Higher Math" selected="selected">Higher Math</option>
+                                    <option value="Biology" >Biology</option>
+                                    <option value="Higher Math">Higher Math</option>
+                                    <option value="General Math">General Math</option>
+                                    <option value="English">English</option>
+                                    <option value="Bangla">Bangla</option>
+                                    <option value="ICT">ICT</option>
                                   </select>     
-                                </div>
+                             </div>
                          </div>
 
                         <div class="form-group row mb-0">
